@@ -1,5 +1,5 @@
 backend:
-    name: git-gateway
+    name: github
     branch: main # Branch para publicação (opcional; padrão é master)
 
 media_folder: 'public/images/uploads' # Pasta onde os arquivos de mídia serão armazenados
