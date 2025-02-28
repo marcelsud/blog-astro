@@ -1,62 +1,77 @@
 ---
-title: Your Roadmap to Framework Selection Success
-excerpt: Choosing the right framework for your web project is a critical decision that can significantly impact the development process and the success of your project. With so many options available, it's essential to consider various factors before making a choice.
-publishDate: 'Jan 15 2024'
+title: 'IA e o Futuro: Reflexões da Minha Palestra no GDG Aracaju'
+excerpt: Ontem, no encontro do GDG Aracaju, tive a oportunidade de compartilhar minha visão sobre a Inteligência Artificial e o impacto que ela terá em nosso futuro.
+publishDate: 'Feb 27 2025'
 featureImage:
-  src: '/post-5.webp'
-  alt: Stairs
+  src: '/post-imgs/001/banese-labs.webp'
+  alt: Banese Labs
 isFeatured: true
 seo:
   image:
-    src: '/post-5.jpg'
+    src: '/post-imgs/001/banese-labs.webp'
 ---
 
-**Choosing the right framework** for your web project is a critical decision that can significantly impact the development process and the success of your project. With so many options available, it's essential to consider various factors before making a choice. Here's a step-by-step guide on how to choose the right framework for your web project.
+Ontem, no encontro do GDG Aracaju, tive a oportunidade de compartilhar minha visão sobre a Inteligência Artificial e o impacto que ela terá em nosso futuro. Iniciei minha palestra relembrando o icônico Deep Thought (Pensador Profundo) do _Guia do Mochileiro das Galáxias_, e compartilhei uma reflexão:
 
-## Understand Your Project Requirements
+> Se não soubermos as perguntas certas, de nada adianta termos respostas
 
-Start by thoroughly understanding the specific requirements of your web project. Consider factors such as the project's scope, complexity, and the features you need. Ask questions like:
+### O que é IA?
 
-- What is the project's purpose?
-- What are the key functionalities it should have?
-- Are there any specific technical or performance requirements?
+Iniciei explicando a ideia de que a Inteligência Artificial busca simular, de modo cada vez mais avançado, uma inteligência comparável à humana, enfatizando:
 
-## Define Your Tech Stack
+- **Uso de redes neurais** para lidar com dados complexos.
+- **Aprendizado por experiência**, possibilitando que computadores melhorem seu desempenho à medida que recebem novos dados.
+- **Capacidade de realizar funções avançadas**, como percepção visual, análise de texto e fala, e tomada de decisão.
 
-Determine your preferred technology stack. This includes choices for the frontend (HTML, CSS, JavaScript), backend (programming language, database), and any other technologies you plan to use. Your framework should align with your chosen tech stack.
+### **Interesse ao longo do tempo**
 
-## Consider Your Team's Expertise
+Por meio do Google Trends, apresentei dados indicando o crescimento das buscas pelo termo “AI” desde 2004, com um salto expressivo por no final de 2022, o que coincide com o lançamento do ChatGPT pela OpenAI. Esse aumento reflete o amadurecimento das tecnologias de IA, assim como a popularização de ferramentas e aplicações acessíveis ao grande público. Na minha opinião, trata-se de um marco fundamental, um ponto de inflexão, em que o interesse acadêmico, corporativo e social converge para a Inteligência Artificial, impulsionando pesquisa e desenvolvimento em velocidade recorde.
 
-Assess the skills and expertise of your development team. Choose a framework that your team is comfortable with or is willing to learn. If your team is experienced in a particular language or framework, it may be more efficient to stick with what they know.
+![](https://marcelsud.blog/wp-content/uploads/2025/02/image-1.png?w=1003)
 
-## Community and Ecosystem
+Fonte: [Google Trends](https://trends.google.com/trends/explore?date=all&q=AI&hl=pt), buscas por “AI”
 
-The strength and vitality of a framework's community and ecosystem are paramount considerations when making your choice. A thriving community signifies that the framework is actively used and supported by developers worldwide. Here's why this matters.
+### **Agentes de IA (AI Agents)**
 
-![Community and Ecosystem](/post-5-1.webp)
+Outro ponto de destaque foi o conceito de **Agentes de IA**, ilustrado um agente de IA utilizando:
 
-> Good code is its own best documentation. As you're about to add a comment, ask yourself, 'How can I improve the code so that this comment isn't needed? - **Steve McConnell**
+- **Ferramentas**
+- **Memória de curto e longo prazo**
+- **Planejamento**
+- **Reflexão** (reasoning), **autocrítica** (self-critics), **cadeia de raciocínio** (chain of thoughts), e **subdivisão de objetivos** (sub goal decomposition).
 
-**Support and Problem Solving:** A robust community ensures that you won't be left in the dark when you encounter issues or challenges during development. It's a vast network of developers who are willing to help and share their knowledge. You can turn to forums, Stack Overflow, GitHub discussions, and various online communities for assistance. The more active the community, the faster you're likely to get answers and solutions to your problems.
+Esses agentes são capazes de orquestrar múltiplas funções de forma autônoma, utilizando diferentes módulos para compreender o contexto, relembrar informações passadas, planejar ações e tomar decisões. É uma arquitetura que se aproxima cada vez mais de um “sistema cognitivo” integrado, no qual a IA não apenas reage, mas reflete e ajusta suas estratégias conforme avança em tarefas mais complexas.
 
-**Third-Party Libraries and Plugins:** An active ecosystem often means a wealth of third-party libraries, plugins, and extensions that can extend the functionality of your chosen framework. This can significantly speed up development by providing pre-built solutions for common features and functionalities.
+### **A Importância de Perguntar**
 
-**Continuous Improvement:** A large and engaged community usually translates to continuous improvement of the framework. Developers are more likely to contribute bug fixes, enhancements, and new features, leading to faster updates and a more stable platform. These contributions keep the framework up-to-date and aligned with industry standards.
+Retomando o gancho do Deep Thought, enfatizei que, em meio a tantas tecnologias, há uma questão primordial: **como** e **por que** utilizamos a IA? Encontrar respostas é importante, mas saber **quais perguntas** devem ser feitas é o que direciona os esforços de pesquisa, o desenvolvimento ético e a aplicação prática da inteligência artificial em nosso dia a dia. Essa inquietação nos leva a refletir sobre as implicações sociais e humanas das ferramentas que estamos criando.
 
-**Tutorials and Learning Resources:** A thriving community often generates a plethora of tutorials, blog posts, video courses, and documentation. This abundance of learning resources can be immensely valuable for both beginners and experienced developers looking to master the framework. It makes the learning curve smoother and promotes the adoption of best practices.
+### **Aplicações Práticas**
 
-**Long-Term Viability:** A framework with a strong community is more likely to have a longer lifespan. It's reassuring to know that the framework you choose today will still be supported and updated in the years to come, reducing the risk of your project becoming obsolete due to a lack of maintenance.
+- **Saúde:** Diagnósticos médicos mais precisos, análise de exames e pesquisas em larga escala.
+- **Finanças:** Modelos para prevenção de fraudes e análise de crédito.
+- **Educação:** Plataformas adaptativas que personalizam o conteúdo para cada estudante.
+- **Entretenimento:** Criação de conteúdos automatizados e recomendações inteligentes.
+- **Transporte:** Desenvolvimento de veículos autônomos e otimização de rotas logísticas.
 
-## Documentation and Learning Resources
+Em todos esses casos, a IA atua não só oferecendo respostas, mas também **descobrindo novas perguntas**, seja na detecção de padrões desconhecidos em grandes bases de dados ou na sugestão de caminhos de pesquisa inovadores.
 
-Check the quality and availability of documentation and learning resources for the framework. Well-documented frameworks are easier for developers to learn and work with.
+### **Como se Manter Relevante na Era da IA?**
 
-## Scalability and Performance
+Com tantas mudanças, compartilhei algumas recomendações:
 
-Consider whether the framework can scale to meet your project's future needs. Will it handle increased traffic and data without performance bottlenecks?
+#### **Curto prazo (1-5 anos):**
 
-## Security
+- Aprenda os fundamentos de computação e IA.
+- Aproveite ao máximo as ferramentas de IA disponíveis. Use-as como assistentes e tutores.
+- Mantenha um olhar crítico, evitando ser excessivamente dependente da IA.
 
-Security is crucial for any web project. Ensure that the framework has security features built in and is actively maintained to address security vulnerabilities promptly.
+#### **Médio e longo prazo (5+ anos):**
 
-In conclusion, choosing the right framework for your web project involves a careful evaluation of your project's requirements, your team's expertise, community support, and various technical factors. Taking the time to make an informed decision at the outset can save you time, resources, and headaches as your project progresses.
+- Busque evoluir para uma posição estratégica, de liderança (técnica ou de gestão) para tomada de decisão.
+- Empreenda, busque criar soluções que resolvam problemas reais.
+- Aprenda continuamente. Não fique parado no tempo.
+
+### **Conclusão**
+
+A Inteligência Artificial está transformando o mundo de maneiras que ainda estamos começando a entender. É de vital importância refletimos sobre como iremos formular as perguntas que nos levarão ao próximo grande salto e sobre como iremos nos manter relevantes em um cenário cada vez mais desafiador, com muitas possibilidades interessantes e diferentes caminhos.
