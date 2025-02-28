@@ -7,44 +7,38 @@ const primaryNavLinks = siteConfig.primaryNavLinks || [];
 const { class: className } = Astro.props;
 ---
 
-<header class:list={['px-4 py-4 flex gap-6 items-center justify-between sm:px-8 sm:py-6', className]}>
-    {
-        siteConfig.logo && siteConfig.logo?.src ? (
-            <a href="/">
-                <img class="max-h-12" src={siteConfig.logo.src} alt={siteConfig.logo.alt || ''} />
-            </a>
-        ) : (
-            <a class="text-xl font-bold sm:text-2xl" href="/">
-                {siteConfig.title}
-            </a>
-        )
-    }
-    {
-        primaryNavLinks.length > 0 && (
-            <nav class="relative">
-                <button
-                    class="menu-toggle w-10 h-10 inline-flex items-center justify-center bg-primary text-white rounded-full relative z-20 transition-shadow duration-300 hover:shadow-button"
-                    aria-label="Open Menu"
-                    aria-expanded="false"
-                    aria-controls="menu-items"
-                >
-                    <span class="menu-toggle-icon w-1 h-1 relative bg-white rounded-full" />
-                </button>
-                <ul id="menu-items" class="menu absolute -top-3 -right-3 px-8 pt-16 pb-10 bg-white/75 border border-white/40 z-10 sm:px-12 sm:pt-20 sm:pb-16">
-                    {primaryNavLinks.map((link) => (
-                        <li class="mb-1 border-b border-slate-200/70">
-                            <HeaderNavLink
-                                class="block pr-6 py-1 text-lg text-slate-700 font-bold sm:text-xl relative transition duration-300 hover:text-slate-500"
-                                href={link.href}
-                            >
-                                {link.text}
-                            </HeaderNavLink>
-                        </li>
-                    ))}
-                </ul>
-            </nav>
-        )
-    }
+<header class:list={['px-4 py-4 flex items-center justify-center sm:px-8 sm:py-6', className]}>
+    <div class="flex items-center gap-12">
+        {
+            siteConfig.logo && siteConfig.logo?.src ? (
+                <a href="/">
+                    <img class="max-h-12" src={siteConfig.logo.src} alt={siteConfig.logo.alt || ''} />
+                </a>
+            ) : (
+                <a class="text-xl font-bold sm:text-2xl" href="/">
+                    {siteConfig.title}
+                </a>
+            )
+        }
+        {
+            primaryNavLinks.length > 0 && (
+                <nav>
+                    <ul class="flex gap-6 items-center">
+                        {primaryNavLinks.map((link) => (
+                            <li>
+                                <HeaderNavLink
+                                    class="text-slate-700 font-medium transition duration-300 hover:text-primary"
+                                    href={link.href}
+                                >
+                                    {link.text}
+                                </HeaderNavLink>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+            )
+        }
+    </div>
 </header>
 
 <style>

@@ -39,15 +39,11 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    logo: {
-        src: '/logo.svg',
-        alt: 'Ovidius logo'
-    },
-    title: 'Ovidius',
-    description: 'Astro.js and Tailwind CSS theme for blogging by justgoodui.com',
+    title: 'Marcelo Santos | @marcelsud',
+    description: 'Staff/Principal Engineer | Construindo Soluções Escaláveis, Distribuídas e Orientadas a Eventos',
     image: {
         src: '/ovidius-preview.jpg',
-        alt: 'Ovidius - Astro.js and Tailwind CSS theme'
+        alt: 'Marcelo Santos | @marcelsud | Staff+ Software Engineer'
     },
     primaryNavLinks: [
         {
@@ -59,16 +55,16 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'About',
+            text: 'Sobre mim',
             href: '/about'
         },
         {
-            text: 'Contact',
+            text: 'Contato',
             href: '/contact'
         },
         {
-            text: 'Download Theme',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme'
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/marcelsud/'
         }
     ],
     secondaryNavLinks: [
@@ -91,27 +87,27 @@ const siteConfig: SiteConfig = {
     ],
     socialLinks: [
         {
-            text: 'Go to GitHub repo',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme',
-            icon: 'github'
+            text: 'Minha página no LinkedIn',
+            href: 'https://www.linkedin.com/in/marcelsud',
+            icon: 'linkedin'
         },
         {
-            text: 'Follow on Instagram',
-            href: 'https://instagram.com/',
-            icon: 'instagram'
-        },
-        {
-            text: 'Follow on X',
-            href: 'https://twitter.com/justgoodui',
+            text: 'Me siga no X',
+            href: 'https://twitter.com/marcelsud',
             icon: 'x-twitter'
         }
     ],
     hero: {
-        title: 'Hi there!',
-        text: "My name is Justin Case. I'm a freelance front-end developer, author and speaker based in Austin, TX. It's nice to meet you.",
+        title: 'Olá, Mundo!',
+        text: `
+            Meu nome é Marcelo Santos. 
+            Sou um engenheiro de software com mais de 20 anos de experiência.
+            Atualmente, atuo como Sr Staff Engineer no Will Bank, onde trabalho
+            com a construção de soluções escaláveis, distribuídas e orientadas a eventos.
+        `,
         avatar: {
-            src: '/avatar.jpg',
-            alt: 'Justin Case'
+            src: '/profile-pic.png',
+            alt: 'Marcelo Santos'
         },
         backgroundImage: {
             src: '/hero.webp'
