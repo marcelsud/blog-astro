@@ -1,5 +1,6 @@
 backend:
     name: github
+    repo: marcelsud/blog-astro
     branch: main # Branch para publicação (opcional; padrão é master)
 
 media_folder: 'public/images/uploads' # Pasta onde os arquivos de mídia serão armazenados
